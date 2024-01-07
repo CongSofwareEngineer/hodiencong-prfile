@@ -41,7 +41,7 @@ const nextConfig = {
   compress: true,
   reactStrictMode: true,
   cleanDistDir: false,
-  staticPageGenerationTimeout: 120,
+  // staticPageGenationTimeout: 120,
   swcMinify: true
 }
 

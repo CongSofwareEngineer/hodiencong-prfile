@@ -87,14 +87,14 @@ const Skills = () => {
   ]
   return (
     <div className="w-full" >
-      <TitleComponent icon={<ConstructionIcon />} />
+      <TitleComponent title={'Skills'} icon={<ConstructionIcon />} />
       <h2 className='flex gap-2 text-tile my-3' data-aos="fade-right" >
-        <span>
+        {/* <span>
           Education &
         </span>
         <span className='text-blue-600'>
           Experience
-        </span>
+        </span> */}
       </h2>
       <div data-aos="zoom-in"className='grid gap-6 grid-cols-2 md:grid-cols-3 ml-0 md:ml-[10%]'>
         {

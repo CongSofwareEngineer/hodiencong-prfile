@@ -6,6 +6,7 @@ import Skills from './Components/Skills'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Experience from './Components/Experience'
+import ContactMe from './Components/ContactMe'
 const HomeScreen = () => {
   useEffect(() => {
     Aos.init({
@@ -25,6 +26,10 @@ const HomeScreen = () => {
       <br />
       <br />
       <Skills />
+
+      <br />
+      <br />
+      <ContactMe />
     </div>
   )
 }
