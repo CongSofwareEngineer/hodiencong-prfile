@@ -6,4 +6,15 @@
     justify-content: space-between;
     min-height: 100vh;
     align-items: center;
+    background: rgb(148, 163, 184);
 } 
+.container-content{
+    padding: 48px;
+    margin:auto;
+    width: 100%;
+    max-width: 1550px;
+    @media screen and (max-width: 768px) {
+        padding: 20px;
+    }
+}
+ 

@@ -1,6 +1,6 @@
 import { Inter } from 'next/font/google'
 import '@/styles/global.scss'
-import './globals.css'
+import '@/styles/globals.css'
 import MuiProvider from '@/components/MuiProvider'
 import Container from '@/components/Container'
 import RootStyleRegistry from '@/components/StyledComponentsRegistry'
