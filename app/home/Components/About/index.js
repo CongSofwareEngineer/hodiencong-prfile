@@ -10,7 +10,7 @@ const ULC = styled.ul`
   }
   margin-left: 15px;
 `
-const About = () => {
+const About = ({ ref }) => {
   const renderContact = (name, text) => {
     return (
       <div className="flex gap-2">
@@ -20,7 +20,7 @@ const About = () => {
     )
   }
   return (
-    <div className="w-full">
+    <div className="w-full" ref={ref}>
       <TitleComponent icon={<InfoIcon />} />
       <p
         data-aos="fade-up-right"

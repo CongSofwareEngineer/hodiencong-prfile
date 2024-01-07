@@ -36,7 +36,7 @@ const IconItem = styled(MyImage)`
    /* margin-left: 10px; */
    border-radius: 50%;
 `
-const Skills = () => {
+const Skills = ({ ref }) => {
   const listData = [
 
     {
@@ -86,7 +86,7 @@ const Skills = () => {
 
   ]
   return (
-    <div className="w-full" >
+    <div className="w-full" ref={ref}>
       <TitleComponent title={'Skills'} icon={<ConstructionIcon />} />
       <h2 className='flex gap-2 text-tile my-3' data-aos="fade-right" >
         {/* <span>

@@ -5,7 +5,7 @@ import { viewExternal } from '@/utils/function'
 import React from 'react'
 import Media from 'react-media'
 
-const Banner = () => {
+const Banner = ({ ref }) => {
   const openGmail = () => {
     viewExternal('https://mail.google.com/')
   }
@@ -113,7 +113,7 @@ const Banner = () => {
     )
   }
   return (
-    <div className='w-full flex flex-col md:flex-row justify-between items-center md:h-[90vh] '>
+    <div ref={ref} className='w-full flex flex-col md:flex-row justify-between items-center md:h-[90vh] '>
       <div className='h-9 md:h-[60%]  flex md:flex-col w-full md:w-7 items-center gap-3 max-h-[500px] '>
         <div className='flex-1 h-[2px] md:h-auto md:w-[2px] bg-blue-600'/>
 

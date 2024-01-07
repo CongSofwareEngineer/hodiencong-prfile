@@ -3,7 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css'
 import ConstructionIcon from '@mui/icons-material/Construction'
 
-export default function Experience () {
+export default function Experience ({ ref }) {
   const renderContent = () => {
     return (
       <VerticalTimeline>
@@ -54,7 +54,7 @@ export default function Experience () {
   }
 
   return (
-    <div className="w-full" >
+    <div ref={ref} className="w-full" >
       <TitleComponent title={'Experience'} className={'Experience'} icon={<ConstructionIcon />} />
       <h2 className='flex gap-2 text-tile my-3 mb-4' data-aos="fade-right" >
         {/* <span>

@@ -27,7 +27,7 @@ const IconSub = styled(MyImage)`
     width: auto;
     height: 20px !important; 
 `
-const ContactMe = () => {
+const ContactMe = ({ ref }) => {
   const renderIcon = (icon) => {
     return (
       <div className='p-2 rounded-[50%]' style={{ background: '#637a9a' }}>
@@ -37,7 +37,7 @@ const ContactMe = () => {
   }
 
   return (
-    <div>
+    <div ref={ref}>
       <TitleComponent title={'Contact'} icon={<ContactMailIcon />} />
       <div className='mb-5' />
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10'>
