@@ -2,10 +2,11 @@
 import MyButton from '@/components/MyButton'
 import React, { useState } from 'react'
 import HomeScreen from './home/page'
+import Demo from './demo/page'
 
 const Homelayout = () => {
   const [loading, setLoading] = useState(false)
-  return <HomeScreen />
+  return <Demo />
   // return (
   //   <div>
   //     HomeScreen

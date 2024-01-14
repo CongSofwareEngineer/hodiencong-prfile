@@ -21,6 +21,8 @@
     "@mui/material": "^5.15.2",
     "@mui/material-nextjs": "^5.15.0",
     "@mui/styled-engine-sc": "^6.0.0-alpha.10",
+    "@react-three/drei": "^9.93.0",
+    "@react-three/fiber": "^8.15.14",
     "add": "^2.0.6",
     "aos": "^2.3.4",
     "axios": "^1.6.3",
@@ -36,6 +38,7 @@
     "recharts": "^2.10.3",
     "sass": "^1.69.6",
     "styled-components": "^6.1.6",
+    "three": "^0.160.0",
     "turbo": "^1.11.3",
     "yarn": "^1.22.21",
     "zustand": "^4.4.7"
@@ -43,7 +46,7 @@
   "devDependencies": {
     "@builder.io/partytown": "^0.8.1",
     "autoprefixer": "^10.4.16",
-    "eslint": "^8.0.1",
+    "eslint": "^8.56.0",
     "eslint-config-next": "14.0.4",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.25.2",
