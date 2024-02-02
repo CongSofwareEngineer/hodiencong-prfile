@@ -40,10 +40,10 @@ const ContactMe = ({ ref }) => {
     <div ref={ref}>
       <TitleComponent title={'Contact'} icon={<ContactMailIcon />} />
       <div className='mb-5' />
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10'>
+      <div data-aos="zoom-in" className='grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10'>
         <ContainerItem>
           <div className='m-auto'>
-            {renderIcon(<HomeIcon className='w-full' />)}
+            {renderIcon(<HomeIcon />)}
           </div>
           <div className='flex-1'>
             <p className='text-title'>

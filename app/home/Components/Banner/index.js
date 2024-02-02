@@ -48,7 +48,7 @@ const Banner = ({ ref }) => {
             <div className='font-bold'>
             Phone
             </div>
-            <span>0392225405</span>
+            <a href='tel:+84392225405'>0392225405</a>
           </div>
           <div className='border-l-blue-600 border-l-2 pl-2'>
             <div className='font-bold'>

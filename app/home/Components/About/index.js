@@ -29,14 +29,14 @@ const About = ({ ref }) => {
         Know Me
         <span className="text-blue-500 ml-1">More</span>
       </p>
-      <div className="flex flex-col ml-0 md:ml-[10%] gap-2">
+      <div className="relative flex flex-col ml-0 md:ml-[10%] gap-2" >
 
         <div className="text-title text-blue-600">Introduce ?</div>
 
         <div className="text-title font-semibold my-2">
           I'm Công , a front end Developer
         </div>
-        <ULC>
+        <ULC >
           <li>
             My name is Sang and I work as a Front End Developer. Let me know if
             you need any assistance in that area.

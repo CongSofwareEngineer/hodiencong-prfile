@@ -22,7 +22,7 @@ export default function Experience ({ ref }) {
             <br />
           + Rest full API
             <br/>
-          + Work web3 (smart contract - web3js, etherjs)
+          + Work web3 (smart contract - web3js, etherjs): Element chain Solana, Chain EVM,..
             <br/>
           + Element modal 3d (threejs)
             <br/>
@@ -31,6 +31,12 @@ export default function Experience ({ ref }) {
           + Element Notification Firebase
             <br/>
           + Element call service api opensea, ankr,..etc
+            <br />
+          + Element scan and export data in card NFC
+            <br />
+          + Element server Bot chat and add User in Discord
+            <br />
+          + Working with Nextjs, Tailwincss, Scss, Firebase...
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
